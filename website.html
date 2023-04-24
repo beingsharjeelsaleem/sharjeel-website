@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playball&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="website.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <title></title>
+    </head>
+    <body>
+        <div class="container">
+            <p class="top-text"></p>
+        </div>
+
+        <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+        
+        <script>
+            var typed = new Typed(".top-text", {
+            strings: ["Welcome To Milly Bee Boutique"],
+            typeSpeed: 30,
+            backspeed: 200,
+            loop: true,
+            backDelay: 700
+            });
+        </script>
+        <div class="nav-container">
+            <i class="fa fa-bars" id="menu-icon"></i>
+            <a href="#">Home</a>
+            <a href="#">Shop</a>
+            <img src="logo2white (1).png">
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </div>
+        <script>
+            const menuIcon = document.getElementById('menu-icon');
+            const navContainer = document.querySelector('.nav-container');
+        
+            menuIcon.addEventListener('click', () => {
+                navContainer.classList.toggle('menu-open');
+            });
+        </script>
+        <div class="banner-container">
+            <div class="banner-overlay"></div>
+            <h1>Buttery soft bows your Little one will love</h1>
+            <button>Shop Now</button>
+        </div>
+        <div class="image-container">
+            <div class="left-image">
+                <div class="images-overlay"></div>
+                <img src="image 1.jpg">
+            </div>
+            <div class="middle-image">
+                <div class="images-overlay"></div>
+                <img src="image 2.jpg">
+            </div>
+            <div class="right-image">
+                <div class="images-overlay"></div>
+                <img src="image 3.jpg">
+            </div>
+        </div>
+        <div class="columns-container">
+            <div class="left-column">
+                <img src="bow-tie.png">
+                <h1>Stylish</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+            </div>
+            <div class="middle-column">
+                <img src="thumbs up icon.png">
+                <h1>Comfy</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+            </div>
+            <div class="right-column">
+                <img src="dollar icon.png">
+                <h1>Affordable</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+            </div>
+        </div>
+        <div class="about-container">
+            <div class="-left-container">
+                <img src="image 4.jpg">
+            </div>
+            <div class="right-container">
+                <h3>About us</h3>
+                <h1>Milley Bee Boutique</h1>
+                <p>Welcome to our boutique website! Our passion for fashion and commitment to providing quality products and exceptional
+                    customer service drives everything we do. Our boutique is the culmination of years of hard work and dedication, with a focus on 
+                    offering unique and trendy fashion pieces that are carefully selected with our customers in mind. We believe that fashion is a 
+                    form of self-expression and that every individual deserves to feel confident and beautiful in their own skin. Our 
+                    team is made up of fashion enthusiasts who are dedicated to staying on top of the latest trends and styles, so we 
+                    can offer our customers the very best. We pride ourselves on providing a personalized shopping experience, where 
+                    our customers can find the perfect outfit for any occasion, whether it’s a casual day out or a special event. Thank 
+                    you for choosing to shop with us. We look forward to helping you express your unique style and feel confident and 
+                    beautiful every day.</p>
+            </div>
+        </div>
+        <div>
+            <div class="product-heading">
+                <h1>Our Products</h1>
+            </div>
+            <div class="products-container">
+                <div class= "left-two-products">
+                    <div class="left-product">
+                        <img src="product 1.jpg">
+                        <h1>Hair Bows</h1>
+                        <h2>$7.00</h2>
+                    </div>
+                    <div class="middle-left-product">
+                        <img src="product 2.jpg">
+                        <h1>Hair Bows</h1>
+                        <h2>$9.00</h2>
+                    </div>
+                </div>
+                <div class="right-two-products">
+                    <div class="middle-right-product">
+                        <img src="product 3.jpg">
+                        <h1>Hair Bows</h1>
+                        <h2>$4.00</h2>
+                    </div>
+                    <div class="right-product">
+                        <img src="product 4.jpg">
+                        <h1>Hair Bows</h1>
+                        <h2>$7.00</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-products-container">
+                <div class="bottom-left-two-products">
+                    <div class="bottom-left-product">
+                        <img src="product 5.jpg">
+                        <h1>Hair Bows</h1>
+                        <h2>$8.00</h2>
+                    </div>
+                    <div class="bottom-middle-left-product">
+                        <img src="product 6.jpg">
+                        <h1>Hair Bows</h1>
+                        <h2>$10.00</h2>
+                    </div>
+                </div>
+                <div class="bottom-right-two-products">
+                    <div class="bottom-middle-right-product">
+                        <img src="product 7.jpg">
+                        <h1>Hair Bows</h1>
+                        <h2>$6.00</h2>
+                    </div>
+                    <div class="bottom-right-product">
+                        <img src="product 8.jpg">
+                        <h1>Hair Bows</h1>
+                        <h2>$5.00</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="newsletter-container">
+            <div class="left-newsletter-column">
+                <img src="image 5.jpg">
+            </div>
+            <div class="right-newsletter-column">
+                <h1>Sign up for our newsletter</h1>
+                <p>Sign up for our mailing list to receive new products alerts, special offers and coupon codes.</p>
+                <form method="POST" action="subscribe.php">
+                    <div class="input-button">
+                      <input type="text" name="email" placeholder="Email Address">
+                      <button type="submit">JOIN</button>
+                    </div>
+                  </form>
+                  
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer-left-section">
+                <img src="logo2white (1).png">
+            </div>
+            <div class="footer-middle-left-section">
+                <h1>Navigation</h1>
+                <h3>Shop</h3>
+                <h3>Sale</h3>
+                <h3>About</h3>
+                <h3>Contact</h3>
+            </div>
+            <div class="footer-middle-section">
+                <h1>Information</h1>
+                <h3>Privacy Policy  </h3>
+                <h3>Return Policy</h3>
+                <h3>Shipping Policy</h3>
+                <h3>Terms & Conditions</h3>
+            </div>
+            <div class="footer-middle-right-section">
+                <h1>Get In Touch</h1>
+                <div class="icon-and-info">
+                    <i class="fa fa-phone"></i>
+                    <h3>2038956426</h3>
+                </div>
+                <div class="icon-and-info">
+                    <i class="fa fa-envelope"></i>
+                    <h3>dummymail@gmai.com</h3>
+                </div>
+                <div class="icon-and-info">
+                    <i class="fas fa-location-arrow"></i>
+                    <h3>1760 W, Dummy address, #2000, TX 77573</h3>
+                </div>
+            </div>
+            <div class="footer-right-section">  
+                <h1>Social Links</h1>
+                <div class="footer-icons-container">
+                    <div class="fb-and-insta">
+                        <i class="fab fa-facebook" id="fb-icon"></i>
+                        <i class="fa fa-instagram" id="insta-icon"></i>
+                    </div>
+                    <div class="pinterest-and-tiktok">
+                        <i class="fa fa-twitter" id="twitter-icon"></i>
+                        <i class="fa fa-youtube-play" id="youtube-icon"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-text">
+            <h4>© 2023 The Evolving Digital. All Rights Reserved</h4>
+        </div>    
+    </body>
+</html>
